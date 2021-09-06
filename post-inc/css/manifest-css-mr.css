@@ -1,0 +1,398 @@
+.cac-logo
+{
+    display: block;
+    float: left;
+    height: 50px;
+}
+
+.coat-of-arm
+{
+    display: block;
+    float: right;
+    height: 50px;
+}
+	
+.form-control:focus {
+	/*border-color: #28a745 !important;*/
+	border-color: #ff80ff;
+	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(255, 100, 255, 0.5);
+}
+.login-form {
+    width: 40%;
+    margin: 150px auto;
+}
+.login-form {        
+    margin-bottom: 20px;
+    background: #FFFFFF;
+    -webkit-box-shadow: 9px 23px 18px -4px rgba(102,102,102,0.41);
+	-moz-box-shadow: 9px 23px 18px -4px rgba(102,102,102,0.41);
+	box-shadow: 9px 23px 18px -4px rgba(102,102,102,0.41);
+	border-radius: 8px;
+    padding: 30px;
+}
+.login-form h2 {
+    margin: 0 0 15px;
+}
+.form-control, .btn {
+    min-height: 38px;
+    border-radius: 5px;
+}
+.input-group-addon .fa {
+    font-size: 18px;
+}
+.btn {        
+    font-size: 15px;
+    font-weight: bold;
+}
+.bottom-action {
+  	font-size: 14px;
+}
+
+ /*body{
+	background-image: url(../images/backimage.jpg)!important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}*/
+/*-----------------------------------------------------End of Index CSS ------------------------------------------------------------------------*/
+
+/*-----------------------------------------------------Beginning of Home CSS ------------------------------------------------------------------*/
+.fcta-header{
+    background: #f3f6f7;
+    border-bottom: 2px solid #00ad56;
+	padding: 2px 20px 2px 20px;
+	width: auto;
+	height: 60px
+}
+.navbar{
+	border-top:1px solid #090
+}
+.container-bg{
+	background-image: url(../images/backimage.png);
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.main-content{
+		min-height: 230px;
+        background: #dbdfe5;
+    }
+.sidebar-content{
+        min-height: 100px;
+        margin-bottom: 30px;
+        background: #b4bac0;
+    }
+.top-buffer { margin-top:20px; padding-left: 20px; padding-right:20px;}
+
+.v-divider{
+ margin-left:10px;
+ margin-right:10px;
+ width:1px;
+ height:100%;
+ border-left:2px solid #FFF;
+}
+.font-pref14{
+	font-family:'Trebuchet MS', Arial, Helvetica, sans-serif; 
+	font-size:14px
+}
+.font-pref10{
+	font-family:'Trebuchet MS', Arial, Helvetica, sans-serif; 
+	font-size:10px
+}
+.top-space20{
+	margin-top:20px;
+}
+.myInputs {
+  background-image: url(../images/searchicon.png);
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  width: 350px;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px
+}
+/*--------------------------------------------------- CSS For Responsive Table ----------------------------------------------------------------*/
+    .pagination {
+        float: right;
+        margin: 0 0 5px;
+    }
+    .pagination li a {
+        border: none;
+        font-size: 13px;
+        min-width: 30px;
+        min-height: 30px;
+        color: #999;
+        margin: 0 2px;
+        line-height: 30px;
+        border-radius: 2px !important;
+        text-align: center;
+        padding: 0 6px;
+    }
+    .pagination li a:hover {
+        color: #666;
+    }	
+    .pagination li.active a, .pagination li.active a.page-link {
+        background: #00ad56;
+    }
+    .pagination li.active a:hover {        
+        background: #8FBC8F;
+    }
+	.pagination li.disabled i {
+        color: #ccc;
+    }
+    .pagination li i {
+        font-size: 16px;
+        padding-top: 6px
+    }
+    .hint-text {
+        float: left;
+        margin-top: 10px;
+        font-size: 13px;
+    }    
+	/* Modal styles */
+	.modal .modal-dialog {
+		max-width: 500px;
+	}
+	.modal .modal-header, .modal .modal-body, .modal .modal-footer {
+		padding: 20px 30px;
+	}
+	.modal .modal-content {
+		border-radius: 3px;
+	}
+	.modal .modal-footer {
+		background: #ecf0f1;
+		border-radius: 0 0 3px 3px;
+	}
+    .modal .modal-title {
+        display: inline-block;
+    }
+	.modal .form-control {
+		border-radius: 2px;
+		box-shadow: none;
+		border-color: #dddddd;
+	}
+	.modal textarea.form-control {
+		resize: vertical;
+	}
+	.modal .btn {
+		border-radius: 2px;
+		min-width: 100px;
+	}	
+	.modal form label {
+		font-weight: normal;
+	}	
+	
+	/*CSS to alter breadcrumb*/
+	.breadcrumb-item + .breadcrumb-item::before {
+    content: ">>" !important;
+	color: gold !important;
+	}
+	/*Remove Border Radius From BreadCrumb*/
+	.breadcrumb {
+		  border-radius: 0 !important;
+	  }
+	  
+	[type="date"]::-webkit-calendar-picker-indicator {
+    color: green;
+	opacity: 0.5;
+	}
+	
+	::-webkit-input-placeholder { /* Edge */
+	  color: smoke !important; 
+	  opacity: 0.3 !important;
+	  font-style: italic !important;
+	}
+
+	:-ms-input-placeholder { /* Internet Explorer 10-11 */
+	  color: smoke !important; 
+	  opacity: 0.3 !important;
+	  font-style: italic !important;
+	}
+
+	::placeholder {
+	  color: smoke !important; 
+	  opacity: 0.3 !important;
+	  font-style: italic !important;
+	}
+	
+	/*Make Form Borders Glowy :)*/
+	.form-control:focus {
+	  border-color: #8FBC8F !important;
+	  box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25) !important;
+	}
+/*--------------------------------------------------- CSS For Responsive Table ----------------------------------------------------------------*/
+.lo:hover, .lo:focus { text-decoration: none !important;}
+
+/*Options display (Edit USer, Change Password*/
+a.option {color:#009900 !important;}
+a.option:hover {color: #009900 !important;}
+
+/*-----------------------------------------------------------Fieldset & Legend--------------------------------------------------------*/
+fieldset.scheduler-border {
+
+    border: 1px solid #8FBC8F !important;
+	border-radius: 8px;
+    padding: 0 1.4em 1.4em 1.4em !important;
+    margin: 0 0 1.5em 0 !important;
+	width: 100%;
+	height: auto;
+	margin-left: 0px !important; 
+    -webkit-box-shadow:  0px 0px 0px 0px #000;
+            box-shadow:  0px 0px 0px 0px #000;
+}
+
+legend.scheduler-border {
+	background: #fff none repeat scroll 0 0;
+	height: auto;
+	margin-left: 20px;
+	padding: 3px 5px;
+	position: absolute;
+	margin-top: -15px;
+	border: 1px solid #8FBC8F;
+	border-radius: 8px;
+    font-size: 1.2em !important;
+    font-weight: bold !important;
+    text-align: left !important;
+	color: #8FBC8F;
+	width:auto; /* Or auto */
+    padding:0 10px; /* To give a bit of padding on the left and right */
+}
+/*Hide Input Number Toggle Arrows*/
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+[type="number"] {
+  -moz-appearance: textfield;
+}
+
+/*----------------------------------This is for customizing checkbox on post incporporation form-------------------------------------*/
+.span_pseudo, .chiller_cb span:before, .chiller_cb span:after {
+  content: "";
+  display: inline-block;
+  background: #fff;
+  width: 0;
+  height: 0.2rem;
+  position: absolute;
+  transform-origin: 0% 0%;
+}
+
+.chiller_cb {
+  position: relative;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+}
+.chiller_cb input {
+  display: none;
+}
+.chiller_cb input:checked ~ span {
+  background: #5cb85c;
+  border-color: #5cb85c;
+}
+.chiller_cb input:checked ~ span:before {
+  width: 1rem;
+  height: 0.15rem;
+  transition: width 0.1s;
+  transition-delay: 0.3s;
+}
+.chiller_cb input:checked ~ span:after {
+  width: 0.4rem;
+  height: 0.15rem;
+  transition: width 0.1s;
+  transition-delay: 0.2s;
+}
+.chiller_cb input:disabled ~ span {
+  background: #ececec;
+  border-color: #dcdcdc;
+}
+.chiller_cb input:disabled ~ label {
+  color: #dcdcdc;
+}
+.chiller_cb input:disabled ~ label:hover {
+  cursor: default;
+}
+.chiller_cb label {
+  padding-left: 2rem;
+  position: relative;
+  z-index: 2;
+  cursor: pointer;
+  margin-bottom:0;
+}
+.chiller_cb span {
+  display: inline-block;
+  width: 1.2rem;
+  height: 1.2rem;
+  border: 2px solid #ccc;
+  position: absolute;
+  left: 0;
+  transition: all 0.2s;
+  z-index: 1;
+  box-sizing: content-box;
+}
+.chiller_cb span:before {
+  transform: rotate(-55deg);
+  top: 1rem;
+  left: 0.37rem;
+}
+.chiller_cb span:after {
+  transform: rotate(35deg);
+  bottom: 0.35rem;
+  left: 0.2rem;
+}
+/*-----------------------------------------------------------Mini Table--------------------------------------------------------------*/
+.minitable
+{
+	width: 100%;
+	height: auto;
+	padding: 20px;
+	border: 1px solid #17a2b8;
+}
+
+.minitable tr th
+{
+	background-color: #17a2b8;
+	color: White;
+	height: 40px;
+}
+
+.minitable tr td
+{
+	color: #17a2b8;
+	height: 40px;
+}
+
+.minitable tr th:first-child { /*No*/
+	width: 150px !important;
+}
+.minitable tr th:nth-child(2) { /*Serial No*/
+	width: 300px !important;
+}
+.minitable tr th:nth-child(3) { /* RC Number*/
+	width: 200px !important;
+}
+.minitable tr th:nth-child(4) { /*Company Name*/
+	width: 150px !important;
+}
+.minitable tr th:nth-child(5) { /*Received On*/
+	width: 150px !important;
+}
+.minitable tr th:last-child { /*Registry Staff*/
+	width: 150px !important;
+}
+
+.minitable tr:nth-child(odd) {
+	background-color: #FFFFFF !important;  
+	}
+.minitable tr:nth-child(even) {
+	background-color: #F5F5F5 !important; 
+}
+/*---------------------------------------------------TextArea--------------------------------------------------*/
+._textarea {
+    resize: none !important;
+}
